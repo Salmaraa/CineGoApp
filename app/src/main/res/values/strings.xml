@@ -50,19 +50,22 @@ terpisah, bertemu kembali di Kalimantan untuk pelepasliaran orang utan. Reuni ma
     <string name="acpay">Actual Pay</string>
 
     <string-array name="kursi_options">
-        <item>Regular 2D</item>
-        <item>3D</item>
-        <item>IMAX</item>
-        <item>Premiere</item>
-        <item>Dolby Atmos</item>
+        <item>Regular 2D  -  Rp30.000 </item>
+        <item>3D  -  Rp50.000</item>
+        <item>IMAX  -  Rp60.000</item>
+        <item>Premiere  -  Rp100.000</item>
+        <item>Dolby Atmos  -  Rp120.000</item>
     </string-array>
-    <string-array name="harga_options">
-        <item>30,000</item>
-        <item>50,000</item>
-        <item>60,000</item>
-        <item>100,000</item>
-        <item>120,000</item>
+
+
+    <string-array name="nama_bioskop">
+        <item>Ambarukmo Plaza XXI</item>
+        <item>XXI Jogja City Mall</item>
+        <item>Lippo Plaza Jogja XXI</item>
+        <item>CGV Cinemas Transmart</item>
+        <item>Cinema XXI Sleman City Hall</item>
     </string-array>
+
 
     <string name="judulpay">Order Summary</string>
     <string name="noOrder">Order Number:</string>

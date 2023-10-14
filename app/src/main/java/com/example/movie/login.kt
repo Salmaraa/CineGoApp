@@ -8,8 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.movie.databinding.ActivityLoginBinding
 
 class login : AppCompatActivity() {
-    private val validUsername = "nama"
-    private val validPassword = "niu"
+    private val validUsername = "Anisah"
+    private val validPassword = "493059"
 
     private lateinit var viewBinding: ActivityLoginBinding
 

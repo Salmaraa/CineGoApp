@@ -44,7 +44,8 @@
         android:text="@string/judulsher"
         android:fontFamily="@font/poppinsbold"
         android:layout_marginStart="190dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
     <ImageView
         android:id="@+id/bintang"
         android:layout_width="wrap_content"
@@ -53,7 +54,8 @@
         android:background="@drawable/bintang"
         android:layout_marginTop="65dp"
         android:layout_marginStart="190dp"
-        android:contentDescription="@string/deskrip10"/>
+        android:contentDescription="@string/deskrip10"
+        />
     <TextView
         android:id="@+id/jam"
         android:layout_width="wrap_content"
@@ -63,7 +65,8 @@
         android:textColor="@color/black"
         android:layout_marginTop="20dp"
         android:layout_marginStart="190dp"
-        android:contentDescription="@string/deskrip10"/>
+        android:contentDescription="@string/deskrip10"
+        android:textSize="16sp"/>
     <TextView
         android:id="@+id/lokasi"
         android:layout_width="wrap_content"
@@ -73,7 +76,8 @@
         android:textColor="@color/black"
         android:layout_marginTop="10dp"
         android:layout_marginStart="190dp"
-        android:contentDescription="@string/deskrip10"/>
+        android:contentDescription="@string/deskrip10"
+        android:textSize="16sp"/>
     <ImageView
         android:id="@+id/garis"
         android:layout_width="360dp"
@@ -93,7 +97,8 @@
         android:fontFamily="@font/poppinssemibold"
         android:layout_marginTop="4dp"
         android:layout_marginStart="30dp"
-        android:contentDescription="@string/deskrip10"/>
+        android:contentDescription="@string/deskrip10"
+        android:textSize="16sp"/>
     <TextView
         android:id="@+id/namadirec"
         android:layout_width="wrap_content"
@@ -105,7 +110,8 @@
         android:textSize="14sp"
         android:layout_marginTop="2dp"
         android:layout_marginStart="30dp"
-        android:contentDescription="@string/deskrip10"/>
+        android:contentDescription="@string/deskrip10"
+        />
     <TextView
         android:id="@+id/crew"
         android:layout_width="wrap_content"
@@ -116,7 +122,8 @@
         android:fontFamily="@font/poppinssemibold"
         android:layout_marginTop="2dp"
         android:layout_marginStart="30dp"
-        android:contentDescription="@string/deskrip10"/>
+        android:contentDescription="@string/deskrip10"
+        android:textSize="16sp"/>
     <TextView
         android:id="@+id/namacrew"
         android:layout_width="wrap_content"
@@ -125,7 +132,7 @@
         android:text="@string/anggota"
         android:textColor="@color/black"
         android:fontFamily="@font/poppinsmedium"
-        android:textSize="10sp"
+        android:textSize="13sp"
         android:layout_marginTop="2dp"
         android:layout_marginStart="30dp"
         android:contentDescription="@string/deskrip10"/>
@@ -139,7 +146,8 @@
         android:fontFamily="@font/poppinssemibold"
         android:layout_marginTop="4dp"
         android:layout_marginStart="30dp"
-        android:contentDescription="@string/deskrip10"/>
+        android:contentDescription="@string/deskrip10"
+        android:textSize="16sp"/>
     <TextView
         android:id="@+id/deskrip"
         android:layout_width="360dp"
@@ -147,7 +155,7 @@
         android:layout_below="@id/syn"
         android:text="@string/deskrip"
         android:fontFamily="@font/poppinsmedium"
-        android:textSize="10sp"
+        android:textSize="12sp"
         android:textColor="@color/black"
         android:layout_marginTop="2dp"
         android:layout_marginStart="30dp"

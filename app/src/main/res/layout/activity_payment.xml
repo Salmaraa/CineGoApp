@@ -37,13 +37,14 @@
         android:layout_below="@+id/back"
         android:layout_marginStart="20dp"
         android:textColor="@color/white"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="80dp"/>
     <Spinner
         android:id="@+id/bioskop"
         android:layout_width="386dp"
         android:layout_height="48dp"
         android:layout_below="@+id/pilbioskop"
-        android:layout_marginStart="15dp"/>
+        android:layout_marginStart="15dp"
+        />
     <TextView
         android:id="@+id/pilseat"
         android:layout_width="wrap_content"
@@ -80,6 +81,64 @@
         android:inputType="date"
         android:paddingBottom="20dp"
         android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/harusbayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datepick"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="25dp"
+        android:text="Nominal yang harus dibayar:"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/harusbayar"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="25dp"
+        android:text="Pilih Metode Pembayaran"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+    <Spinner
+        android:id="@+id/paymentMethod"
+        android:layout_width="386dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textPaymentMethod"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"/>
+    <TextView
+        android:id="@+id/accNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paymentMethod"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="25dp"
+        android:text="Add Account Number"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/accountNumberInput"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accNumber"
+        android:layout_marginTop="12dp"
+        android:hint="Masukan account number"
+        android:inputType="number"
+        android:paddingBottom="20dp"
+        android:layout_marginStart="15dp" />
+    <Button
+        android:id="@+id/orderSummary"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accountNumberInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/judulpay"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
     <TextView
         android:id="@+id/hargaKursi"
         android:layout_width="wrap_content"
@@ -89,8 +148,6 @@
         android:layout_marginStart="25dp"
         android:text=""
         android:textSize="18sp"
-        android:textColor="@color/white"/>
-
-
+        android:textColor="@color/white" />
 
 </RelativeLayout>
