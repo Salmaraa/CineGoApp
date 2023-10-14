@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck"
+        android:contentDescription="@string/deskrip1" />
+
+    <TextView
+        android:id="@+id/ttlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lg"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:id="@+id/unameview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ttlogin"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="97dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/uname"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/unameedit"/>
+
+    <EditText
+        android:id="@+id/unameedit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/ttlogin"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_toEndOf="@id/unameview"
+        android:hint="@string/hintuname"
+        android:textColor="@color/wy"
+        android:inputType="textPersonName"
+        android:importantForAccessibility="yes"
+        android:autofillHints="given-name"/>
+
+    <TextView
+        android:id="@+id/pwview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unameview"
+        android:layout_alignBaseline="@+id/pwedit"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/pw"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pwedit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/unameedit"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_toEndOf="@id/unameview"
+        android:hint="@string/hintpw"
+        android:textColor="@color/wy"
+        android:inputType="textPersonName"
+        android:importantForAccessibility="yes"
+        android:autofillHints="given-name"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ttlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/lg"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

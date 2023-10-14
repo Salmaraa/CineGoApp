@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".orderSummary">
+
+    <ImageView
+        android:id="@+id/bck5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck"
+        android:contentDescription="@string/deskrip1" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/baseline_navigate_before_24"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:id="@+id/judulsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/judulpay"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBaseline="@id/back" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/subtract"
+        android:layout_below="@id/judulsum"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imgsherina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sherina"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="58dp"
+        android:layout_below="@+id/back"
+        android:contentDescription="@string/deskrip4" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judulsum"
+        android:layout_marginTop="80dp"
+        android:text="@string/judulsher"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginStart="210dp" />
+
+    <ImageView
+        android:id="@+id/bintang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:background="@drawable/bintang"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="210dp"
+        android:contentDescription="@string/deskrip10" />
+
+    <TextView
+        android:id="@+id/jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bintang"
+        android:text="@string/jam"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="210dp" />
+
+    <TextView
+        android:id="@+id/lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jam"
+        android:text="@string/lokasi"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="210dp" />
+
+    <ImageView
+        android:id="@+id/vector"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgsherina"
+        android:background="@drawable/vector"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/deskrip10"/>
+    <TextView
+        android:id="@+id/noOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vector"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/noOrder"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginStart="58dp" />
+    <TextView
+        android:id="@+id/nomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noOrder"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/nomor"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginStart="58dp" />
+    <TextView
+        android:id="@+id/seatt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomor"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/seatt"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginStart="58dp" />
+    <TextView
+        android:id="@+id/paymet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seatt"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/paymeth"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginStart="58dp" />
+    <TextView
+        android:id="@+id/tyseatt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paymet"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/jenisSeat"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginStart="58dp" />
+    <TextView
+        android:id="@+id/fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tyseatt"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="@string/biayalynn"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginStart="58dp" />
+    <ImageView
+        android:id="@+id/garis2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fee"
+        android:background="@drawable/line"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        android:contentDescription="@string/deskrip10"/>
+    <TextView
+        android:id="@+id/actually"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/garis2"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="@string/acpay"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_marginStart="58dp" />
+
+</RelativeLayout>

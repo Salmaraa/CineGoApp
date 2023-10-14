@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">movie</string>
+    <string name="deskrip1">bckgrnd</string>
+    <string name="deskrip2">lg</string>
+    <string name="lg">Login</string>
+    <string name="uname">Username:</string>
+    <string name="pw">Password:</string>
+    <string name="hintuname">Masukkan username</string>
+    <string name="hintpw">Masukkan password</string>
+    <string name="hll">Hello,</string>
+    <string name="top">Top Movie 2023</string>
+    <string name="judulsher">Petualangan Sherina 2</string>
+    <string name="judultgr">Tegar</string>
+    <string name="judulair">Air Mata di Ujung Sajadah</string>
+    <string name="judulghost">Hello Ghost</string>
+    <string name="judulsuhita">Hati Suhita</string>
+    <string name="judulbuyham">Buya Hamka</string>
+    <string name="deskrip3">airmata</string>
+    <string name="deskrip4">sher</string>
+    <string name="deskrip5">tgr</string>
+    <string name="deskrip6">suhit</string>
+    <string name="deskrip7">ghost</string>
+    <string name="deskrip8">hamka</string>
+    <string name="deskrip9">kotak</string>
+    <string name="deskrip10">bintang</string>
+    <string name="deskrip11">datepick</string>
+    <string name="rat1">ting1</string>
+    <string name="rat2">ting2</string>
+    <string name="rat3">ting3</string>
+    <string name="rat4">ting4</string>
+    <string name="rat5">ting5</string>
+    <string name="rat6">ting6</string>
+    <string name="jam">MUSICAL . 2h6m</string>
+    <string name="lokasi">2023  |  SU  |  IDN</string>
+    <string name="direc">DIRECTOR:</string>
+    <string name="namadirec">Riri Riza</string>
+    <string name="crew">CAST AND CREW:</string>
+    <string name="anggota">Sherina Munaf, Derby Romero, Isyana Saravasti,
+Kelly Tandiono, Ardit Erwandha</string>
+    <string name="syn">SYNOPSIS:</string>
+    <string name="deskrip">Bahasa Indonesia - Sherina dan Sadam, dua teman kecil yang lama
+terpisah, bertemu kembali di Kalimantan untuk pelepasliaran orang utan. Reuni manis terhenti ketika anak utan bernama Sayu dicuri sekelompok orang. Sherina dan Sadam harus berusaha menemukan kembali kebersamaan, demi menyelamatkan Sayu dan juga kelangsungan persahabatan mereka yang bau saja tumbuh kembali. Sebuah sekuel dari film legendaris, bernuansa musikal dengan sentuhan aksi petualangan.
+
+(In Indonesian with no subtitles)</string>
+    <string name="beli">BUY TICKET</string>
+    <string name="pay">Payment Method</string>
+    <string name="pilbioskop">Pilih Bioskop</string>
+    <string name="pilseat">Pilih Jenis Seat</string>
+    <string name="piltgl">Pilih Tanggal</string>
+    <string name="acpay">Actual Pay</string>
+
+    <string-array name="kursi_options">
+        <item>Regular 2D</item>
+        <item>3D</item>
+        <item>IMAX</item>
+        <item>Premiere</item>
+        <item>Dolby Atmos</item>
+    </string-array>
+    <string-array name="harga_options">
+        <item>30,000</item>
+        <item>50,000</item>
+        <item>60,000</item>
+        <item>100,000</item>
+        <item>120,000</item>
+    </string-array>
+
+    <string name="judulpay">Order Summary</string>
+    <string name="noOrder">Order Number:</string>
+    <string name="seatt">Seat:</string>
+    <string name="paymeth">Payment Method:</string>
+    <string name="jenisSeat">Type of Seat:</string>
+    <string name="biayalynn">Convenience Fee:</string>
+    <string name="nomor">1198804794001625088</string>
+</resources>

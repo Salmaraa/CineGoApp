@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/grey" /> <!-- Warna ketika tombol ditekan -->
+            <corners android:radius="4dp" /> <!-- Radius sudut 4dp -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black" /> <!-- Warna default ketika tombol tidak ditekan -->
+            <corners android:radius="4dp" /> <!-- Radius sudut 4dp -->
+        </shape>
+    </item>
+</selector>
